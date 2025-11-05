@@ -586,13 +586,22 @@ body.menu-open::before {
         justify-content: center;
     }
     
+    .library-hero-section {
+        padding: 15px 40px 60px;
+    }
+    
     .library-hero-section .header-container {
-        display: flex
-;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 150px;
-    margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-left: 0;
+        padding: 0 15px;
+        gap: 15px;
+    }
+    
+    .library-hero-section .logo img {
+        height: 60px;
     }
     
     .library-hero-section .main-nav {

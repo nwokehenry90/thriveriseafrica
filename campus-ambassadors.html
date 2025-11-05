@@ -269,20 +269,22 @@
                         </ul>
                     </div>
                 </div>
-                
-                <!-- Legal Links at bottom right -->
-                <div class="legal-links">
-                    <p class="copyright">&copy; 2025 ThriveRise Africa. All Rights Reserved.</p>
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms-of-use.html">Terms of Use</a>
-                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom: Copyright and Legal Links -->
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 ThriveRise Africa. All Rights Reserved.</p>
+            <div class="legal-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-use.html">Terms of Use</a>
             </div>
         </div>
     </footer>
     <!-- Mobile Menu JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
             const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
             const mobileMenuClose = document.querySelector('.mobile-menu-close');
             
@@ -312,5 +314,6 @@
             }
         });
     </script>
+    <script src="js/back-to-top.js"></script>
 </body>
 </html>
